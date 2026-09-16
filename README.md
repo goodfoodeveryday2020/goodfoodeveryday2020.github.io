@@ -3,7 +3,7 @@
 純 HTML / CSS / JS 的靜態連結頁（取代 Linktree），沒有任何第三方追蹤。
 內容由 **Google 試算表**管理：在試算表改標題、連結、圖片，重新整理網頁就會更新。
 
-- **線上網址**：<https://goodfoodeveryday2020.github.io/>
+- **線上網址**：<https://links.goodfoodeveryday.tw/>（GitHub Pages 原網址 goodfoodeveryday2020.github.io 會自動轉過來）
 - **內容試算表**：分頁「設定」「連結」「說明」，使用方式寫在「說明」分頁裡
 - **GitHub repo**：`goodfoodeveryday2020/goodfoodeveryday2020.github.io`（Pages 來源 main / root）
 
