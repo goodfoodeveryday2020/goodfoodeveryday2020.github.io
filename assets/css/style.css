@@ -187,6 +187,14 @@ button { font: inherit; color: inherit; }
   letter-spacing: .02em;
 }
 .card__thumb img { width: 100%; height: 100%; object-fit: cover; }
+/* 沒有縮圖時的品牌預留圖（圓標），也用於圖片載入失敗的後備 */
+.card__thumb--brand {
+  background-color: var(--paper-warm);
+  background-image: url("../img/logo-mark.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 74%;
+}
 .card__body { min-width: 0; }
 .card__title {
   margin: 0;
