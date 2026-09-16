@@ -150,9 +150,9 @@
   }
 
   function thumb(item) {
-    if (item.image) return `<span class="card__thumb"><img src="${esc(item.image)}" alt="" loading="lazy" decoding="async"></span>`;
-    const d = domainOf(item.url);
-    return `<span class="card__thumb" aria-hidden="true">${esc((d[0] || '·').toUpperCase())}</span>`;
+    if (item.image) return `<span class="card__thumb"><img src="${esc(item.image)}" alt="" loading="lazy" decoding="async" onerror="this.closest('.card__thumb').classList.add('card__thumb--brand');this.remove()"></span>`;
+    // 沒有指定圖片時用品牌圓標，比網域首字母更像刻意設計
+    return `<span class="card__thumb card__thumb--brand" aria-hidden="true"></span>`;
   }
 
   function renderLinks(items) {
